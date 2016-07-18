@@ -21,7 +21,7 @@ png(filename="./plot4.png")
 par(mfcol = c(2, 2))
 
 # top left
-with(data, plot(Time, Global_active_power, ylab = "Global Active Power (kilowatts)", type = "l"))
+with(data, plot(Time, Global_active_power, ylab = "Global Active Power", type = "l"))
 
 # bottom left
 with(data, plot(Time, Sub_metering_1, ylab = "Energy sub metering", xlab = " ", type = "n"))
